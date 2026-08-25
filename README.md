@@ -30,3 +30,7 @@ Overall, it's a great project<br>
 <br>
 
 3. You're already done, now you can do some terminal stuff (with limited commands...)
+
+<hr>
+
+Note: I'll be explaining the usage of making your own commands
