@@ -15,4 +15,5 @@ Overall, it's a great project<br>
 ```HTML
 <head>
     <script src=".../StarTerminal.js"><script>
-</head>```
+</head>
+```
