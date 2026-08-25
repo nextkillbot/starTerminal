@@ -11,9 +11,22 @@ Overall, it's a great project<br>
 <hr>
 
 # Usage
-1: Link the script (depending on your directory) into the &lt;head&gt; tag, like this:<br>
-```HTML
+1. Link the script (depending on your directory) into the `<head>` tag, like this:<br>
+```html
 <head>
     <script src=".../StarTerminal.js"></script>
 </head>
 ```
+<br>
+
+2. Initialize the script inside a separate `<script>` tag:<br>
+```html
+<script>
+    StarTerminal.Init(/* PARENT name */, /* PARENT type */, /* PARENT index */)
+    
+    // eg: StarTerminal.Init("body", "tag", 0)
+</script>
+```
+<br>
+
+3. You're already done, now you can do some terminal stuff (with limited commands...)
