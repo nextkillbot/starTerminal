@@ -14,6 +14,6 @@ Overall, it's a great project<br>
 1: Link the script (depending on your directory) into the `<head>` tag, like this:<br>
 ```HTML
 <head>
-    <script src=".../StarTerminal.js"><script>
+    <script src=".../StarTerminal.js"></script>
 </head>
 ```
