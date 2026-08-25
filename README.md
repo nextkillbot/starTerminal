@@ -33,4 +33,18 @@ Overall, it's a great project<br>
 
 <hr>
 
-Note: I'll be explaining the usage of making your own commands
+# Custom commands
+
+1. On a separate script, create a `.js` file with your preferred name<br>
+2. Inside, copy this script:<br>
+```javascript
+StarTerminal.Util.Execute(/* Command name (when entered, it'll check if this is present or not) */, function(Value, Callback) {
+    // Do something here
+    Callback()
+})
+```
+<br>
+
+Important to note: Always use `Callback()` at the end of your function, or else your terminal becomes unresponsive
+
+3. And done, you're now making a new command
