@@ -15,7 +15,5 @@ Overall, it's a great project<br>
 ```HTML
 <head>
     <script src=".../StarTerminal.js"></script>
-</head>```
-
-<br>
-2: Initialize the script onto a separate `<script>` tag
+</head>
+```
