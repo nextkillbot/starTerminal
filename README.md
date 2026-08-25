@@ -11,11 +11,11 @@ Overall, it's a great project<br>
 <hr>
 
 # Usage
-1: Link the script (depending on your directory) into the <code>&gt;head&lt;<code> tag, like this:<br>
+1: Link the script (depending on your directory) into the &lt;head&gt; tag, like this:<br>
 ```HTML
 <head>
     <script src=".../StarTerminal.js"></script>
-</head>
-```
+</head>```
+
 <br>
 2: Initialize the script onto a separate `<script>` tag
