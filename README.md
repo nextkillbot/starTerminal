@@ -45,6 +45,17 @@ StarTerminal.Util.Execute(/* Command name (when entered, it'll check if this is 
 ```
 <br>
 
+NOTE: As of `v1.1-alpha` or more, you must copy this script:
+```javascript
+StarTerminal.Util.Execute(/* Command name (when entered, it'll check if this is present or not) */, function(Value, Callback) {
+    // Do something here
+    Callback()
+}, ["Function here", "Usage: [echo (arg1)]", "Arguments: (arg1)"])
+
+// On the arguments side, please do not write the command itself, otherwise you will get weird "help" results
+```
+<br>
+
 Important to note: Always use `Callback()` at the end of your function, or else your terminal becomes unresponsive
 
 3. And done, you're now making a new command
