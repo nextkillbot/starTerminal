@@ -1,0 +1,24 @@
+/* Wish JS had pseudo edit... I'm lazy to use 3rd parties man */
+
+/* CLASSES */
+.ST_ProgressBar_Unresolved {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    background-color: transparent;
+    color: transparent;
+    border: 1.5px solid var(--INDENTITY-ST_FG-COLOR);
+    
+    padding: 1.5px;
+    margin-right: 1ch;
+    
+    width: 15em;
+}
+.ST_ProgressBar_Unresolved::-webkit-progress-bar {
+    background-color: transparent;
+} .ST_ProgressBar_Unresolved::-webkit-progress-value {
+    background-color: var(--INDENTITY-ST_FG-COLOR);
+} .ST_ProgressBar_Unresolved::-moz-progress-bar {
+    background-color: var(--INDENTITY-ST_FG-COLOR);
+}
