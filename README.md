@@ -59,3 +59,6 @@ StarTerminal.Util.Execute(/* Command name (when entered, it'll check if this is 
 Important to note: Always use `Callback()` at the end of your function, or else your terminal becomes unresponsive
 
 3. And done, you're now making a new command
+
+<hr>
+Full documentary can be accessed <a href="https://starterminal-conduct.web.app/" target="_blank">here</a>
